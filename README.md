@@ -16,12 +16,12 @@ SIGINT
 
 * Before exiting, do two things:
     
-  1. Print to stdout "Process with PID: XXX Exiting due to SIGINT" replacing XXX with the actual process id.
+  1. Print to stdout `Process with PID: XXX Exiting due to SIGINT` replacing XXX with the actual process id.
   2. Append the above message to a file output.txt
 
 SIGQUIT 
 
-* Print out the PID and Parent PID in the format: "PPID: XXX , PID: YYY" replacing XXX and YYY with the correct ID values.
+* Print out the PID and Parent PID in the format: `PPID: XXX , PID: YYY` replacing XXX and YYY with the correct ID values.
 * DO NOT cause the program to exit.
     
 ## Running the program and testing:
